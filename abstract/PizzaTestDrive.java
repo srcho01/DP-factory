@@ -27,5 +27,24 @@ public class PizzaTestDrive {
  
 		pizza = chicagoStore.orderPizza("veggie");
 		System.out.println("Joel ordered a " + pizza + "\n");
+
+		// The new store - Seoul
+		System.out.println("=".repeat(50) + "\n");
+		System.out.println("[The New Pizza Store in Seoul]");
+
+		PizzaStore seoulStore = new SeoulPizzaStore();
+
+		pizza = seoulStore.orderPizza("cheese");
+		System.out.println("Seorim ordered a " + pizza + "\n");
+
+		pizza = seoulStore.orderPizza("clam");
+		System.out.println("Seorim ordered a " + pizza + "\n");
+
+		pizza = seoulStore.orderPizza("veggie");
+		System.out.println("Seorim ordered a " + pizza + "\n");
+
+		pizza = seoulStore.orderPizza("kimchi");
+		System.out.println("Seorim ordered a " + pizza + "\n");
+
 	}
 }

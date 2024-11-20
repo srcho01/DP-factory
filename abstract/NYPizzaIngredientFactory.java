@@ -24,4 +24,6 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 	public Clams createClam() {
 		return new FreshClams();
 	}
+
+	public Kimchi createKimchi() { return null; }
 }

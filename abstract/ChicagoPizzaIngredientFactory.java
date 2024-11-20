@@ -28,4 +28,6 @@ public class ChicagoPizzaIngredientFactory
 	public Clams createClam() {
 		return new FrozenClams();
 	}
+
+	public Kimchi createKimchi() { return null; }
 }

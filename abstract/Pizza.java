@@ -7,6 +7,7 @@ public abstract class Pizza {
 	Cheese cheese;
 	Pepperoni pepperoni;
 	Clams clam;
+	Kimchi kimchi;
 
 	abstract void prepare();
 
@@ -62,6 +63,11 @@ public abstract class Pizza {
 			result.append(pepperoni);
 			result.append("\n");
 		}
+		if (kimchi != null) {
+			result.append(kimchi);
+			result.append("\n");
+		}
+
 		return result.toString();
 	}
 }
