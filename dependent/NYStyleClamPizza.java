@@ -6,6 +6,6 @@ public class NYStyleClamPizza extends Pizza {
 		sauce = "Marinara Sauce";
  
 		toppings.add("Grated Reggiano Cheese");
-		toppings.add("Fresh Clams from Long Island Sound");
+		toppings.add("Fresh Clams from Oido");
 	}
 }
